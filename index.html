@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务器Q群介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .intro {
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .intro h2 {
+            color: #4b6cb7;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .intro p {
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+        
+        .qr-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .qr-card {
+            flex: 1;
+            min-width: 280px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .qr-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .qr-card h3 {
+            color: #4b6cb7;
+            margin-bottom: 15px;
+        }
+        
+        .qr-placeholder {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 15px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        
+        .qr-placeholder img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 8px;
+        }
+        
+        .steps {
+            background-color: #f0f4f8;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+        
+        .steps h2 {
+            color: #4b6cb7;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .steps ol {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+        
+        .steps li {
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .qr-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .qr-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>服务器Q群</h1>
+            <p class="subtitle">技术交流 · 资源共享 · 互助成长</p>
+        </header>
+        
+        <div class="content">
+            <section class="intro">
+                <h2>欢迎加入我们的服务器Q群</h2>
+                <p>这是一个专注于服务器技术、运维管理和云计算相关话题的交流群。无论您是初学者还是资深专家，这里都欢迎您的加入！</p>
+                <p>我们定期分享服务器配置技巧、故障排查经验、最新技术动态以及优质的学习资源。群内氛围友好，成员之间互相帮助，共同进步。</p>
+            </section>
+            
+            <section class="qr-section">
+                <div class="qr-card">
+                    <h3>群聊二维码 1</h3>
+                    <div class="qr-placeholder">
+                        <!-- 请将IMG_0672.JPG替换为实际图片路径 -->
+                        <img src="IMG_0672.JPG" alt="服务器Q群二维码1">
+                    </div>
+                    <p>使用手机QQ扫描加入群聊</p>
+                </div>
+                
+                <div class="qr-card">
+                    <h3>群聊二维码 2</h3>
+                    <div class="qr-placeholder">
+                        <!-- 请将IMG_0671(20251104-224008).PNG替换为实际图片路径 -->
+                        <img src="IMG_0671(20251104-224008).PNG" alt="服务器Q群二维码2">
+                    </div>
+                    <p>使用手机QQ扫描加入群聊</p>
+                </div>
+            </section>
+            
+            <section class="steps">
+                <h2>如何加入群聊</h2>
+                <ol>
+                    <li>打开手机QQ应用</li>
+                    <li>点击右上角"+"号，选择"扫一扫"</li>
+                    <li>扫描上方任意一个二维码</li>
+                    <li>点击"加入群聊"按钮</li>
+                    <li>等待管理员审核通过</li>
+                </ol>
+            </section>
+        </div>
+        
+        <footer>
+            <p>© 2023 服务器技术交流群 | 期待您的加入</p>
+        </footer>
+    </div>
+</body>
+</html>
